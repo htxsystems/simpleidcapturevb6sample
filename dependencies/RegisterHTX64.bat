@@ -1,0 +1,19 @@
+regsvr32/s/u C:\Windows\SysWOW64\COMDLG32.ocx
+regsvr32/s/u C:\Windows\SysWOW64\msado15.dll
+regsvr32/s/u C:\Windows\SysWOW64\MSDBRPT.DLL
+regsvr32/s/u C:\Windows\SysWOW64\MSHTMPGD.DLL
+regsvr32/s/u C:\Windows\SysWOW64\msvbvm60.dll
+regsvr32/s/u C:\Windows\SysWOW64\SimpleIDNETSample.tlb
+regsvr32/s/u C:\Windows\SysWOW64\stdole2.tlb
+regsvr32/s/u C:\Windows\SysWOW64\TABCTL32.OCX
+regsvr32/s/u C:\Windows\SysWOW64\VB6.OLB
+regsvr32/s/u C:\Windows\SysWOW64\VBA6.DLL
+regsvr32/s/u C:\Windows\SysWOW64\WBCLSDSR.OCX
+regsvr32/s/u C:\Windows\SysWOW64\GdiPlus.dll
+regsvr32/s/u C:\Windows\SysWOW64\asycfilt.dll
+regsvr32/s/u C:\Windows\SysWOW64\COMCAT.DLL
+regsvr32/s/u C:\Windows\SysWOW64\crypt32.dll
+regsvr32/s/u C:\Windows\SysWOW64\oleaut32.dll
+regsvr32/s/u C:\Windows\SysWOW64\olepro32.dll
+regsvr32/s/u C:\Windows\SysWOW64\VB6STKIT.dll
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe C:\Windows\SysWOW64\SimpleIDNETSample.dll /tlb SimpleId.tbl /codebase

@@ -1,0 +1,509 @@
+[Root]
+Most Recent Package=Standard Setup Package 2
+Most Recent Deploy=SimpleID
+
+
+[Package|SimpleIDVb6Demo|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=D:\Users\myersBR\Downloads\
+
+[Package|SimpleIDVb6Demo|Configure DAO ISAMs]
+Applicable=No
+
+[Package|SimpleIDVb6Demo|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|SimpleIDVb6Demo|Files Found]
+
+[Package|SimpleIDVb6Demo|Files Released]
+
+[Package|SimpleIDVb6Demo|Missing Dependency Information]
+D:\Users\myersBR\Downloads\SimpleIDNETSample (1)\SimpleIDNETSample\bin\Debug\SimpleIDNETSample.tlb=
+C:\Windows\System32\crypt32.dll=
+C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17134.556_none_73dbc8079f731a22\GdiPlus.dll=
+
+[Package|SimpleIDVb6Demo|Out-of-Date Dependency Information]
+
+[Package|SimpleIDVb6Demo|Files Added]
+
+[Package|SimpleIDVb6Demo|Files Removed]
+
+[Package|SimpleIDVb6Demo|Files In Project]
+D:\Users\myersBR\Downloads\SimpleIDVB6Sample.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17134.556_none_73dbc8079f731a22\GdiPlus.dll=Yes
+C:\Windows\System32\crypt32.dll=Yes
+D:\Users\myersBR\Downloads\SimpleIDNETSample (1)\SimpleIDNETSample\bin\Debug\SimpleIDNETSample.tlb=Yes
+C:\Program Files (x86)\Common Files\system\ado\msado15.dll=Yes
+C:\Windows\SysWOW64\TABCTL32.OCX=Yes
+C:\Windows\SysWOW64\COMDLG32.OCX=Yes
+
+[Package|SimpleIDVb6Demo|Configure Registry Files]
+Applicable=
+
+[Package|SimpleIDVb6Demo|Configure Remote Servers]
+Applicable=
+
+[Package|SimpleIDVb6Demo|Install Locations]
+D:\Users\myersBR\Downloads\SimpleIDVB6Sample.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17134.556_none_73dbc8079f731a22\GdiPlus.dll=$(WinSysPath)
+C:\Windows\System32\crypt32.dll=$(WinSysPath)
+D:\Users\myersBR\Downloads\SimpleIDNETSample (1)\SimpleIDNETSample\bin\Debug\SimpleIDNETSample.tlb=$(WinSysPath)
+C:\Program Files (x86)\Common Files\system\ado\msado15.dll=$(CommonFilesSys)\ADO
+C:\Windows\SysWOW64\TABCTL32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\COMDLG32.OCX=$(WinSysPath)
+
+[Package|SimpleIDVb6Demo|Configure Shared Files]
+Applicable=
+
+[Package|SimpleIDVb6Demo|DepFile]
+DepCabFile=SimpleIDVB6Sample.CAB
+DepCabRun=SimpleIDVB6Sample.INF
+
+[Package|SimpleIDVb6Demo|Package]
+PackageFolder=D:\Users\myersBR\Downloads\
+ProjectFolder=D:\Program Files (x86)\Microsoft Visual Studio\VB98
+ServerSideCab=
+File1=D:\Users\myersBR\Downloads\SimpleIDVB6Sample.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|SimpleIDVb6DemoScript|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Users\myersBR\Downloads\
+
+[Package|SimpleIDVb6DemoScript|Configure DAO ISAMs]
+Applicable=No
+
+[Package|SimpleIDVb6DemoScript|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|SimpleIDVb6DemoScript|Files Found]
+
+[Package|SimpleIDVb6DemoScript|Files Released]
+
+[Package|SimpleIDVb6DemoScript|Missing Dependency Information]
+D:\Users\myersBR\Downloads\SimpleIDNETSample (1)\SimpleIDNETSample\bin\Debug\SimpleIDNETSample.tlb=
+C:\Windows\System32\crypt32.dll=
+C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17134.556_none_73dbc8079f731a22\GdiPlus.dll=
+
+[Package|SimpleIDVb6DemoScript|Out-of-Date Dependency Information]
+
+[Package|SimpleIDVb6DemoScript|Files Added]
+
+[Package|SimpleIDVb6DemoScript|Files Removed]
+
+[Package|SimpleIDVb6DemoScript|Files In Project]
+D:\Users\myersBR\Downloads\SimpleIDVB6Sample.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17134.556_none_73dbc8079f731a22\GdiPlus.dll=Yes
+C:\Windows\System32\crypt32.dll=Yes
+D:\Users\myersBR\Downloads\SimpleIDNETSample (1)\SimpleIDNETSample\bin\Debug\SimpleIDNETSample.tlb=Yes
+C:\Windows\SysWOW64\TABCTL32.OCX=Yes
+C:\Windows\SysWOW64\COMDLG32.OCX=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|SimpleIDVb6DemoScript|Configure Registry Files]
+Applicable=No
+
+[Package|SimpleIDVb6DemoScript|Configure Remote Servers]
+Applicable=No
+
+[Package|SimpleIDVb6DemoScript|Install Locations]
+D:\Users\myersBR\Downloads\SimpleIDVB6Sample.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17134.556_none_73dbc8079f731a22\GdiPlus.dll=$(WinSysPath)
+C:\Windows\System32\crypt32.dll=$(WinSysPath)
+D:\Users\myersBR\Downloads\SimpleIDNETSample (1)\SimpleIDNETSample\bin\Debug\SimpleIDNETSample.tlb=$(WinSysPath)
+C:\Program Files (x86)\Common Files\system\ado\msado15.dll=$(CommonFilesSys)\ADO
+C:\Windows\SysWOW64\TABCTL32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\COMDLG32.OCX=$(WinSysPath)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|SimpleIDVb6DemoScript|Configure Shared Files]
+Applicable=Yes
+D:\Users\myersBR\Downloads\SimpleIDVB6Sample.exe=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|SimpleIDVb6DemoScript|DepFile]
+DepCabFile=SimpleIDVB6Sample.CAB
+DepCabRun=SimpleIDVB6Sample.INF
+
+[Package|SimpleIDVb6DemoScript|Distribution]
+Type=single
+Size=
+Title=SimpleIDVB6Sample
+
+[Package|SimpleIDVb6DemoScript|IconGroups]
+Group0=SimpleIDVB6Sample
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|SimpleIDVb6DemoScript|SimpleIDVB6Sample]
+Icon1=SimpleIDVB6Sample.exe
+Title1=SimpleIDVB6Sample
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|SimpleIDVb6DemoScript|Package]
+PackageFolder=D:\Users\myersBR\Downloads\
+ProjectFolder=D:\Program Files (x86)\Microsoft Visual Studio\VB98
+ServerSideCab=
+File1=D:\Users\myersBR\Downloads\setup.exe
+File2=D:\Users\myersBR\Downloads\Setup.Lst
+File3=D:\Users\myersBR\Downloads\SimpleIDVB6Sample.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|SimpleIDVB6Demo|Root]
+Package=SimpleIDVb6DemoScript
+Handler=PDWizard.FolderDplySubWiz
+Folder=D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\new
+
+[Deploy|Folder Deployment 1|Root]
+Package=SimpleIDVb6Demo
+Handler=PDWizard.FolderDplySubWiz
+Folder=D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\new2
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Program Files (x86)\Microsoft Visual Studio\VB98\Package\demosimpleid2
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+D:\Users\myersBR\Downloads\SimpleIDNETSample (1)\SimpleIDNETSample\bin\Debug\SimpleIDNETSample.tlb=
+C:\Windows\System32\crypt32.dll=
+C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17134.556_none_73dbc8079f731a22\GdiPlus.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\Users\myersBR\Downloads\SimpleIDVB6Sample.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17134.556_none_73dbc8079f731a22\GdiPlus.dll=Yes
+C:\Windows\System32\crypt32.dll=Yes
+D:\Users\myersBR\Downloads\SimpleIDNETSample (1)\SimpleIDNETSample\bin\Debug\SimpleIDNETSample.tlb=Yes
+C:\Windows\SysWOW64\TABCTL32.OCX=Yes
+C:\Windows\SysWOW64\COMDLG32.OCX=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\Users\myersBR\Downloads\SimpleIDVB6Sample.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17134.556_none_73dbc8079f731a22\GdiPlus.dll=$(WinSysPath)
+C:\Windows\System32\crypt32.dll=$(WinSysPath)
+D:\Users\myersBR\Downloads\SimpleIDNETSample (1)\SimpleIDNETSample\bin\Debug\SimpleIDNETSample.tlb=$(WinSysPath)
+C:\Windows\SysWOW64\TABCTL32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\COMDLG32.OCX=$(WinSysPath)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Users\myersBR\Downloads\SimpleIDVB6Sample.exe=No
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=SimpleID VB6 Sample
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=SimpleIDVB6Sample
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|SimpleIDVB6Sample]
+Icon1=SimpleIDVB6Sample.exe
+Title1=SimpleIDVB6Sample
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\Program Files (x86)\Microsoft Visual Studio\VB98\Package\demosimpleid2
+ProjectFolder=D:\Program Files (x86)\Microsoft Visual Studio\VB98
+ServerSideCab=
+File1=D:\Program Files (x86)\Microsoft Visual Studio\VB98\Package\demosimpleid2\setup.exe
+File2=D:\Program Files (x86)\Microsoft Visual Studio\VB98\Package\demosimpleid2\Setup.Lst
+File3=D:\Program Files (x86)\Microsoft Visual Studio\VB98\Package\demosimpleid2\SimpleIDVB6Sample.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=D:\Users\myersBR\Downloads
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+D:\Users\myersBR\Downloads\SimpleIDNETSample (1)\SimpleIDNETSample\bin\Debug\SimpleIDNETSample.tlb=
+C:\Windows\System32\crypt32.dll=
+C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17134.556_none_73dbc8079f731a22\GdiPlus.dll=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+
+[Package|Dep File 1|Files Added]
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+D:\Users\myersBR\Downloads\SimpleIDVB6Sample.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17134.556_none_73dbc8079f731a22\GdiPlus.dll=Yes
+C:\Windows\System32\crypt32.dll=Yes
+D:\Users\myersBR\Downloads\SimpleIDNETSample (1)\SimpleIDNETSample\bin\Debug\SimpleIDNETSample.tlb=Yes
+C:\Program Files (x86)\Common Files\system\ado\msado15.dll=Yes
+C:\Windows\SysWOW64\TABCTL32.OCX=Yes
+C:\Windows\SysWOW64\COMDLG32.OCX=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=
+
+[Package|Dep File 1|Install Locations]
+D:\Users\myersBR\Downloads\SimpleIDVB6Sample.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17134.556_none_73dbc8079f731a22\GdiPlus.dll=$(WinSysPath)
+C:\Windows\System32\crypt32.dll=$(WinSysPath)
+D:\Users\myersBR\Downloads\SimpleIDNETSample (1)\SimpleIDNETSample\bin\Debug\SimpleIDNETSample.tlb=$(WinSysPath)
+C:\Program Files (x86)\Common Files\system\ado\msado15.dll=$(CommonFilesSys)\ADO
+C:\Windows\SysWOW64\TABCTL32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\COMDLG32.OCX=$(WinSysPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=
+
+[Package|Dep File 1|DepFile]
+DepCabFile=SimpleIDVB6Sample.CAB
+DepCabRun=SimpleIDVB6Sample.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=D:\Users\myersBR\Downloads
+ProjectFolder=D:\Program Files (x86)\Microsoft Visual Studio\VB98
+ServerSideCab=
+File1=D:\Users\myersBR\Downloads\SimpleIDVB6Sample.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|SimpleID|Root]
+Package=Dep File 1
+Handler=PDWizard.FolderDplySubWiz
+Folder=D:\SimpleID
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\SimpleID
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+D:\Users\myersBR\Downloads\SimpleIDNETSample (1)\SimpleIDNETSample\bin\Debug\SimpleIDNETSample.tlb=
+C:\Windows\System32\crypt32.dll=
+C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17134.556_none_73dbc8079f731a22\GdiPlus.dll=
+D:\shared\SimpleIDNETSample.dll=
+D:\shared\websocket-sharp.dll=
+D:\shared\Newtonsoft.Json.dll=
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 2|Files Added]
+D:\shared\SimpleIDNETSample.dll=
+D:\shared\websocket-sharp.dll=
+D:\shared\Newtonsoft.Json.dll=
+D:\shared\RegistraHTX32.bat=
+D:\shared\RegistraHTX64.bat=
+
+[Package|Standard Setup Package 2|Files Removed]
+
+[Package|Standard Setup Package 2|Files In Project]
+D:\Users\myersBR\Downloads\SimpleIDVB6Sample.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17134.556_none_73dbc8079f731a22\GdiPlus.dll=Yes
+C:\Windows\System32\crypt32.dll=Yes
+C:\Windows\SysWOW64\TABCTL32.OCX=Yes
+C:\Windows\SysWOW64\COMDLG32.OCX=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\shared\SimpleIDNETSample.dll=Yes
+D:\shared\websocket-sharp.dll=Yes
+D:\shared\Newtonsoft.Json.dll=Yes
+D:\shared\RegistraHTX32.bat=Yes
+D:\shared\RegistraHTX64.bat=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+D:\Users\myersBR\Downloads\SimpleIDVB6Sample.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17134.556_none_73dbc8079f731a22\GdiPlus.dll=$(WinSysPath)
+C:\Windows\System32\crypt32.dll=$(WinSysPath)
+D:\Users\myersBR\Downloads\SimpleIDNETSample (1)\SimpleIDNETSample\bin\Debug\SimpleIDNETSample.tlb=$(WinSysPath)
+C:\Program Files (x86)\Common Files\system\ado\msado15.dll=$(CommonFilesSys)\ADO
+C:\Windows\SysWOW64\TABCTL32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\COMDLG32.OCX=$(WinSysPath)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\shared\SimpleIDNETSample.dll=$(WinSysPath)
+D:\shared\websocket-sharp.dll=$(WinSysPath)
+D:\shared\Newtonsoft.Json.dll=$(WinSysPath)
+D:\shared\RegistraHTX32.bat=$(AppPath)
+D:\shared\RegistraHTX64.bat=$(AppPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+D:\Users\myersBR\Downloads\SimpleIDVB6Sample.exe=No
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\shared\RegistraHTX32.bat=No
+D:\shared\RegistraHTX64.bat=No
+
+[Package|Standard Setup Package 2|DepFile]
+DepCabFile=SimpleIDVB6Sample.CAB
+DepCabRun=SimpleIDVB6Sample.INF
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=SimpleIDVB6Sample
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=SimpleIDVB6Sample
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|SimpleIDVB6Sample]
+Icon1=SimpleIDVB6Sample.exe
+Title1=SimpleIDVB6Sample
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=D:\SimpleID
+ProjectFolder=D:\Program Files (x86)\Microsoft Visual Studio\VB98
+ServerSideCab=
+File1=D:\SimpleID\setup.exe
+File2=D:\SimpleID\Setup.Lst
+File3=D:\SimpleID\SimpleIDVB6Sample.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
